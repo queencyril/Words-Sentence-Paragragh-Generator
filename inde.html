@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Logan Ipsum Generator</h1>
+    <div class="controls">
+      <label for="amount">I need</label>
+      <input type="number" id="amount" min="1" max="10" value="2">
+      <select id="type">
+        <option value="sentences">sentences</option>
+        <option value="words">words</option>
+        <option value="paragraphs">paragraphs</option>
+      </select>
+      <span>Logan Broger.</span>
+      <button id="generate">Generate</button>
+    </div>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
