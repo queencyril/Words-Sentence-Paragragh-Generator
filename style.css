@@ -6,14 +6,6 @@ body {
   padding: 50px;
 }
 
-.container {
-  width: 80%;
-  max-width: 800px;
-  background: #ededed;
-  padding: 20px 40px;
-  border-radius: 6px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
 
 h1 {
   font-size: 24px;
@@ -21,7 +13,7 @@ h1 {
 }
 
 .controls {
-  background: #e0e0e0;
+  background: #F7AEF8;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -40,7 +32,7 @@ input, select {
 
 button {
   padding: 8px 15px;
-  background: #333;
+  background: #B388EB;
   color: white;
   border: none;
   border-radius: 4px;
@@ -52,7 +44,7 @@ button:hover {
 }
 
 #output {
-  background: #efefef;
+  background: #B388EB;
   padding: 20px;
   border-radius: 5px;
   font-size: 17px;
